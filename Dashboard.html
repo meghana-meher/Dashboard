@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="text/icon" href="logo.jpg">
+	<link rel="stylesheet" type="text/css" href="Dashboardstyles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Tropical</title>
+</head>
+<body>
+<div class="contain">
+		<div class="navigation">
+			<ul>
+				<li>
+					<a href="#">
+					<span class="title brand-name ml-2 text-danger"><b style="color: #abab59;"><img class="brandlogo" src="brandlogo.jpg"></b></span>
+					</a>
+				</li>
+				<br>
+				<li>
+					<a href="#">
+					<span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+					<span class="title">Dash Board</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<span class="icon"><i class="fa fa-users" aria-hidden="true"></i></span>
+					<span class="title">Customer</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<span class="icon"><i class="fa fa-comment" aria-hidden="true"></i></span>
+					<span class="title">Message</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<span class="icon"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
+					<span class="title">Help</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+					<span class="title">settings</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<span class="icon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+					<span class="title">Pasword</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+					<span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>
+					<span class="title">Sign Out</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="main">
+			<div class="topbar">
+				<div class="toggle" onclick="toggleMenu();"></div>
+				<div class="search" >
+					<label>
+						<input type="text" placeholder="search" style="color:black;">
+						<i class="fa fa-search" aria-hidden="true"></i>
+					</label>
+				</div>
+					<div class="user">
+						<img src="profile-1.jpg" width="40px" height="40px">
+					</div>
+				</div>
+			
+<!-- =======================================card1 starts=============================================== -->
+<br><br><br>
+<div class="container b-text">
+		<br>
+	<div class="card-deck">
+		<div class="card">
+			<div class="card-body">
+				<p class="mb-1">Total Sales</p>
+				<h2 class="mb-1">₹2,590</h2>
+				<small class="text-info">Compared to last month</small>
+				<span class="ratio bg-warning">86%</span>
+				<span class="ratio-text">Goals Reached</span>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-body">
+				<p class="mb-1">Total Sales</p>
+				<h2 class="mb-1">₹2,590</h2>
+				<small class="text-info">Compared to last month</small>
+				<span class="ratio bg-success">74%</span>
+				<span class="ratio-text">Goals Reached</span>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-body">
+				<p class="mb-1">Total Sales</p>
+				<h2 class="mb-1">₹2,590</h2>
+				<small class="text-info">Compared to last month</small>
+				<span class="ratio bg-danger">86%</span>
+				<span class="ratio-text ">Goals Reached</span>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-body">
+				<p class="mb-1">Total Sales</p>
+				<h2 class="mb-1">₹2,590</h2>
+				<small class="text-info">Compared to last month</small>
+				<span class="ratio bg-info">86%</span>
+				<span class="ratio-text">Goals Reached</span>
+			</div>
+		</div>
+	</div>
+<br>
+<!-- =================================card2 starts================================ -->
+		<div class="row">
+		<div class="col-sm-8">
+			<div class="card">
+				<div class="card-header d-flex">
+					<div>
+					<h5>Sales Analysis</h5>
+					</div>
+					<div class="btn-group p-0 ml-auto">
+						<button class="btn  btn-sm" style="color: #fff;">Week</button>
+						<button class="btn  btn-sm btn-dark">Month</button>
+						<button class="btn  btn-sm " style="color: #fff;">Year</button>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="row">
+						<div class="col-sm-3">
+							<h6>Total Sales</h6>
+							<h4>₹52,618</h4>
+							<small><span class="text-warning">↓0.9%</span> this month</small>
+						</div>
+						<div class="col-sm-3">
+							<h6>Maximum Sales</h6>
+							<h4>₹26,197</h4>
+							<small><span class="text-success">↑0.15%</span> this month</small>
+						</div>
+						<div class="col-sm-3">
+							<h6>Total Units Sold</h6>
+							<h4>₹13,876</h4>
+							<small><span class="text-warning">↓0.8%</span> this month</small>
+						</div>
+						<div class="col-sm-3">
+							<h6>Max Units Sold</h6>
+							<h4>₹5,876</h4>
+							<small><span class="text-success">↑0.06%</span> this month</small>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+					<img src="chart.jpg" width="100%" height="300px">
+					<div class="col-sm-12 d-flex">
+						<span><li>Total Sales</li></span>
+						<span><li>Total Units Sold</li></span>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class=" card">
+				<div class="card-header d-flex">
+					<div>
+					<p style="font-size:18px;">Recent Activity</p>
+					</div>
+					<div class="dot-icon  ml-auto">
+						<span class="drop"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+					</div>
+					<div class="drop-down" id="drop-menu">
+							<ul>
+								<li>Today</li>
+								<li>Last Week</li>
+								<li>Last Month</li>
+								<li>Last Year</li>
+							</ul>
+						</div>
+					<script type="text/javascript">
+							$(document).ready(function(){
+							$(".drop").click(function(){
+							$(".drop-down").toggle();
+							});
+							});
+					</script>
+				</div>
+				<div class="card-body c-body">
+					<ul>
+						<li>
+							<div class="d-flex r-active">
+								<span style="font-size: 14px;font-weight: bold;">Task Finished</span>
+								<span class="ml-auto">09 June 2020</span>
+							</div>
+							<p style="font-size:12px ;"><span class="text-info">Joseph Elison</span>finished task on<a href="#" style="text-decoration:none;font-weight: bold;color: black;">&nbsp;Project Management</a></p>
+						</li>
+						<li>
+							<div class="d-flex r-active">
+								<span style="font-size: 14px;font-weight: bold;">Task Finished</span>
+								<span class="ml-auto">09 June 2020</span>
+							</div>
+							<p style="font-size:12px ;"><span class="text-info">Joseph Elison</span>finished task on<a href="#" style="text-decoration:none;font-weight: bold;color: black;">&nbsp;Project Management</a></p>
+						</li>
+						<li>
+							<div class="d-flex r-active">
+								<span style="font-size: 14px;font-weight: bold;">Task Finished</span>
+								<span class="ml-auto">09 June 2020</span>
+							</div>
+							<p style="font-size:12px ;"><span class="text-info">Joseph Elison</span>finished task on<a href="#" style="text-decoration:none;font-weight: bold;color: black;">&nbsp;Project Management</a></p>
+						</li>
+						<li>
+							<div class="d-flex r-active">
+								<span style="font-size: 14px;font-weight: bold;">Task Finished</span>
+								<span class="ml-auto">09 June 2020</span>
+							</div>
+							<p style="font-size:12px ;"><span class="text-info">Joseph Elison</span>finished task on<a href="#" style="text-decoration:none;font-weight: bold;color: black;">&nbsp;Project Management</a></p>
+						</li>
+						<li>
+							<div class="d-flex r-active">
+								<span style="font-size: 14px;font-weight: bold;">Task Finished</span>
+								<span class="ml-auto">09 June 2020</span>
+							</div>
+							<p style="font-size:12px ;"><span class="text-info">Joseph Elison</span>finished task on<a href="#" style="text-decoration:none;font-weight: bold;color: black;">&nbsp;Project Management</a></p>
+						</li>
+						<li>
+							<div class="d-flex r-active">
+								<span style="font-size: 14px;font-weight: bold;">Task Finished</span>
+								<span class="ml-auto">09 June 2020</span>
+							</div>
+							<p style="font-size:12px ;"><span class="text-info">Joseph Elison</span>finished task on<a href="#" style="text-decoration:none;font-weight: bold;color: black;">&nbsp;Project Management</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+		<br>
+		<!-- =============================================chart3 starts========================= -->
+<div class="row">
+<div class="col-sm-4">
+			<div class=" card  r-custo">
+				<div class="card-header d-flex">
+					<div>
+					<p style="font-size:16px;">Recent Customers</p>
+					</div>
+					<div class="dot-icon  ml-auto">
+						<span id="drop"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+						<div class="drop-down1" id="menu">
+							<ul>
+								<li>Today</li>
+								<li>Last Week</li>
+								<li>Last Month</li>
+								<li>Last Year</li>
+							</ul>
+						</div>
+					</div>
+					<script type="text/javascript">
+						$(document).ready(function(){
+							$('#drop').click(function(){
+								$('#menu').toggle();
+							})
+						});
+					</script>
+				</div>
+				<div class="card-body">
+					<div class="list-card">
+						<span class="bg-warning list-bar"></span>
+						<div class="row align-items-center">
+							<div class="col-sm-9">
+								<div class="media mb-1">
+									<img src="profile-2.jpg">
+									<div class="media-body ml-2">
+										<div class="d-flex align-items-center mt-1">
+											<h6>Lisa marshall</h6>
+										</div>
+										<span class="mb-0 text-info">User Id:#2342</span>
+										<span class="ml-1 text-success font-weight-semibold"  style="font-size:13px;">Paid</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 col-3">
+								<div class="text-right">
+									<span class="font-weight-semibold fs-16 number-font">₹558</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="list-card">
+						<span class="bg-warning list-bar"></span>
+						<div class="row align-items-center">
+							<div class="col-sm-9">
+								<div class="media">
+									<img src="profile-3.jpg">
+									<div class="media-body ml-2">
+										<div class="d-flex align-items-center mt-1">
+											<h6>Lisa marshall</h6>
+										</div>
+										<span class="mb-0  text-info">User Id:#2342</span>
+										<span class="ml-1 fs-10 text-danger font-weight-semibold" style="font-size:13px;">Pending</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 col-3">
+								<div class="text-right">
+									<span class="font-weight-semibold fs-16 number-font">₹558</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+					<div class="card-body">
+					<div class="list-card">
+						<span class="bg-warning list-bar"></span>
+						<div class="row align-items-center">
+							<div class="col-sm-9">
+								<div class="media">
+									<img src="profile-4.jpg">
+									<div class="media-body ml-2">
+										<div class="d-flex align-items-center mt-1">
+											<h6>Lisa marshall</h6>
+										</div>
+										<span class="mb-0 fs-13 text-info">User Id:#2342</span>
+										<span class="ml-1 text-success font-weight-semibold fs-10" style="font-size:13px;">Paid</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 col-3">
+								<div class="text-right">
+									<span class="font-weight-semibold fs-16 number-font">₹558</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="list-card">
+						<span class="bg-warning list-bar"></span>
+						<div class="row align-items-center">
+							<div class="col-sm-9">
+								<div class="media">
+									<img src="profile-5.jpg">
+									<div class="media-body ml-2">
+										<div class="d-flex align-items-center mt-1">
+											<h6>Lisa marshall</h6>
+										</div>
+										<span class="mb-0 fs-13 text-info">User Id:#2342</span>
+										<span class="ml-1 text-danger font-weight-semibold" style="font-size:13px;">Pending</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-3 col-3">
+								<div class="text-right">
+									<span class="font-weight-semibold fs-16 number-font">₹796</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class=" card">
+				<div class="card-header d-flex">
+					<div>
+					<p style="font-size:16px;">Recent Customers</p>
+					</div>
+					<div class="dot-icon  ml-auto">
+						<span class="drop1"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+						<div class="drop-down2" id="drop-menu">
+							<ul>
+								<li>Today</li>
+								<li>Last Week</li>
+								<li>Last Month</li>
+								<li>Last Year</li>
+							</ul>
+						</div>
+					</div>
+					<script type="text/javascript">
+							$(document).ready(function(){
+							$('.drop1').click(function(){
+								$('.drop-down2').toggle();
+							})
+						});
+					</script>
+				</div>
+				<div class="card-body">
+					<div class="card-body">
+						<div class="mb-5">
+							<div class="d-flex">
+								<span><img src="flag.png" style="width: 30px; height: 20px;"> United States</span>
+								<div class="ml-auto">
+		
+									<span class="number-font">₹45,870</span>(86%)
+								</div>
+							</div>
+							<div class="progress h-2 mt-1">
+								<div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" style="width: 80%;"></div>
+							</div>
+						</div>
+						<div class="mb-5">
+							<div class="d-flex">
+								<span><img src="flag.png" style="width: 30px; height: 20px;"> United States</span>
+								<div class="ml-auto">
+									<span class="number-font">₹45,870</span>(86%)
+								</div>
+							</div>
+							<div class="progress h-2 mt-1">
+								<div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" style="width: 50%;"></div>
+							</div>
+						</div>
+						<div class="mb-5">
+							<div class="d-flex">
+								<span><img src="flag.png" style="width: 30px; height: 20px;"> United States</span>
+								<div class="ml-auto">
+									<span class="number-font">₹45,870</span>(86%)
+								</div>
+							</div>
+							<div class="progress h-2 mt-1">
+								<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 70%;"></div>
+							</div>
+						</div>
+						<div class="mb-5">
+							<div class="d-flex">
+								<span><img src="flag.png" style="width: 30px; height: 20px;"> United States</span>
+								<div class="ml-auto">
+									<span class="number-font">₹45,870</span>(86%)
+								</div>
+							</div>
+							<div class="progress h-2 mt-1">
+								<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 50%;"></div>
+							</div>
+						</div>
+						<div class="">
+							<div class="d-flex">
+								<span><img src="flag.png" style="width: 30px; height: 20px;"> United States</span>
+								<div class="ml-auto">
+									<span class="number-font">₹45,870</span>(86%)
+								</div>
+							</div>
+							<div class="progress h-2 mt-1">
+								<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 40%;"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="cards">
+				<div class="card mb-5" style="display: flex;flex-direction: column;box-shadow: 1px 2p 3px white;">
+				<div class="card-body">
+						<p class="mb-1 fs-14">Users</p>
+						<div class="d-flex align-items-end">
+						<h2 class="mb-0" style="font-size: 20px;">
+							<span>12,769</span>
+							<span class="ml-1 text-info" style="font-size:12px"><span class="text-danger"><i class="fa fa-caret-down"></i>43.2</span>this month</span>
+						</h2>
+					</div>
+					<div class="d-flex mr-2">
+						<div>
+							<span class="text-info fs-12 mr-1">Last Month</span>
+							<span class="ml-1 text-success" style="font-size:12px"><i class="fa fa-caret-up"></i>10,876</span>
+						</div>
+						<div class="ml-auto mr-1">
+							<span class="text-info fs-12 mr-">Last Year</span>
+							<span class="ml-1  text-danger" style="font-size:12px"><i class="fa fa-caret-down"></i><span class="font-weight-semibold">88,345</span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="card mb-4">
+				<div class="card-body">
+						<p class="mb-1 fs-14">Users</p>
+						<div class="d-flex align-items-end">
+						<h2 class="mb-0" style="font-size: 20px;">
+							<span>12,769</span>
+							<span class="ml-1 text-info" style="font-size:12px"><span class="text-danger"><i class="fa fa-caret-down"></i>43.2</span>this month</span>
+						</h2>
+					</div>
+					<div class="d-flex mr-2">
+						<div>
+							<span class="text-info fs-12 mr-1">Last Month</span>
+							<span class="ml-1 text-success" style="font-size:12px"><i class="fa fa-caret-up"></i>10,876</span>
+						</div>
+						<div class="ml-auto mr-1">
+							<span class="text-info fs-12 mr-">Last Year</span>
+							<span class="ml-1  text-danger" style="font-size:12px"><i class="fa fa-caret-down"></i><span class="font-weight-semibold">88,345</span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="card mb-4">
+				<div class="card-body">
+						<p class="mb-1 fs-14">Users</p>
+						<div class="d-flex align-items-end">
+						<h2 class="mb-0" style="font-size: 20px;">
+							<span>12,769</span>
+							<span class="ml-1 text-info" style="font-size:12px"><span class="text-danger"><i class="fa fa-caret-down"></i>43.2</span>this month</span>
+						</h2>
+					</div>
+					<div class="d-flex mr-2">
+						<div>
+							<span class="text-info fs-12 mr-1">Last Month</span>
+							<span class="ml-1 text-success" style="font-size:12px"><i class="fa fa-caret-up"></i>10,876</span>
+						</div>
+						<div class="ml-auto mr-1">
+							<span class="text-info fs-12 mr-">Last Year</span>
+							<span class="ml-1  text-danger" style="font-size:12px"><i class="fa fa-caret-down"></i><span class="font-weight-semibold">88,345</span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-0">
+				<div class="card-body">
+						<p class="mb-1 fs-14">Users</p>
+						<div class="d-flex align-items-end">
+						<h2 class="mb-0" style="font-size: 20px;">
+							<span>12,769</span>
+							<span class="ml-1 text-info" style="font-size:12px"><span class="text-danger"><i class="fa fa-caret-down"></i>43.2</span>this month</span>
+						</h2>
+					</div>
+					<div class="d-flex mr-2">
+						<div>
+							<span class="text-info fs-12 mr-1">Last Month</span>
+							<span class="ml-1 text-success" style="font-size:12px"><i class="fa fa-caret-up"></i>10,876</span>
+						</div>
+						<div class="ml-auto mr-1">
+							<span class="text-info fs-12 mr-">Last Year</span>
+							<span class="ml-1  text-danger" style="font-size:12px"><i class="fa fa-caret-down"></i><span class="font-weight-semibold">88,345</span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+
+
+		
+	</div>
+	<br><br>
+<!-- ====================================table starts================================================= -->
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="card">
+				<div class="card-header d-flex">
+					<p style="font-size:16px;">Top Product Sales Overview</p>
+					<div class="dot-icon  ml-auto">
+						<span class="drop2"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></span>
+					</div>
+					<div class="drop-down3" id="drop-menu">
+							<ul>
+								<li>Today</li>
+								<li>Last Week</li>
+								<li>Last Month</li>
+								<li>Last Year</li>
+							</ul>
+						</div> 
+			</div>
+		<script type="text/javascript">
+					$(document).ready(function(){
+					  $(".drop2").click(function(){
+					    $(".drop-down3").toggle();
+					  });
+					});
+		</script>
+
+
+				<div class="card-body">
+					<div class="table-responsive">
+						<table class="table table-striped   text-center">
+							<thead>
+								<tr class="text-center">
+									<th>PRODUCT</th>
+									<th>SOLD</th>
+									<th>RECORD POINT</th>
+									<th>STOCK</th>
+									<th>AMOUNT</th>
+									<th>STACK STATUS</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="font-weight-bold">New Book</td>
+									<td class="badge badge-primary mt-1">18</td>
+									<td>05</td>
+									<td>112</td>
+									<td class="number-font">₹2,356</td>
+									<td><i class="fa fa-check mr-1 text-success"></i>In Stock</td>
+								</tr>
+								<tr>
+									<td class="font-weight-bold">New Book</td>
+									<td class="badge badge-primary mt-1">18</td>
+									<td>05</td>
+									<td>112</td>
+									<td class="number-font">₹2,356</td>
+									<td><i class="fa fa-check mr-1 text-success"></i>In Stock</td>
+								</tr>
+								<tr>
+									<td class="font-weight-bold">New Book</td>
+									<td class="badge badge-primary mt-1">18</td>
+									<td>05</td>
+									<td>112</td>
+									<td class="number-font">₹2,356</td>
+									<td><i class="fa fa-check mr-1 text-success"></i>In Stock</td>
+								</tr>
+								<tr>
+									<td class="font-weight-bold">New Book</td>
+									<td class="badge badge-primary mt-1">18</td>
+									<td>05</td>
+									<td>112</td>
+									<td class="number-font">₹2,356</td>
+									<td><i class="fa fa-check mr-1 text-success"></i>In Stock</td>
+								</tr>
+								<tr>
+									<td class="font-weight-bold">New Book</td>
+									<td class="badge badge-primary mt-1">18</td>
+									<td>05</td>
+									<td>112</td>
+									<td class="number-font">₹2,356</td>
+									<td><i class="fa fa-check mr-1 text-success"></i>In Stock</td>
+								</tr>
+								<tr>
+									<td class="font-weight-bold">New Book</td>
+									<td class="badge badge-primary mt-1">18</td>
+									<td>05</td>
+									<td>112</td>
+									<td class="number-font">₹2,356</td>
+									<td><i class="fa fa-check mr-1 text-success"></i>In Stock</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!-- 	</div>
+</div> -->
+<br>
+	
+
+</div>
+<div class="container-fluid text-dark text-center " style="box-shadow: 5px  0 0 0 white;">
+	<br><br>
+	<p style="font-size:14px;font-weight: bold;">Copyright &copy; TROPICAL  pvt.ltd All rights reserved</p>
+	<br>
+</div>
+
+
+	</div>
+	<script type="text/javascript">
+		function toggleMenu(){
+			let toggle = document.querySelector('.toggle');
+			let navigation = document.querySelector('.navigation');
+			let main = document.querySelector('.main');
+			toggle.classList.toggle('active');
+			navigation.classList.toggle('active');
+			main.classList.toggle('active');
+		}
+	</script>
+</body>
+</html>
